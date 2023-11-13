@@ -1,0 +1,162 @@
+.hero_subtitle img{
+    width: 2.3rem;
+    height: 2.3rem;
+}
+
+.hero_subtitle .subtitle {
+    font-size: 8px;
+    font-weight: bold;
+    font-family: var(--subtitle-font-name);
+    background: var(--secondary-color);
+    margin-top: 2px;
+    padding: 0 10px;
+    padding-bottom: 1px;
+    padding-top: 2px;
+    border-radius: 20px;
+}
+
+.hero_content {
+    font-size: 3.2rem;
+    font-weight: 600;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.hero_content h1.highlight {
+    color: var(--secondary-color);
+}
+
+.hero_content p {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    line-height: 2rem;
+}
+
+.hero_img-box img, 
+.hero_vid-box video,
+.hero_imgtwo-box img {
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+    box-shadow: 0 10px 10px 4px rgba(0, 0, 0, 0.2);
+    border: .5px solid rgb(202, 194, 194);
+    object-fit: cover;
+}
+
+.services_subtitle {
+    font-size: 3.2rem;
+    font-weight: 500;
+    color: var(--secondary-color);
+    font-family: var(--subtitle-font-name);
+}
+
+.services_title {
+    font-size: 2.5rem;
+    font-weight: 100;
+    font-family: var(--font-name);
+    color: (--text-color);
+}
+
+.feature_tour-title {
+    font-size: 2.3rem;
+    font-weight: 500;
+}
+
+.cards_title {
+    font-size: 4.3rem;
+    font-family: var(--subtitle-font-name);
+    color: var(--secondary-color);
+}
+
+.featured_tour-title {
+    font-size: 2rem;
+    font-family: var(--font-name);
+    font-weight: 100;
+    color: var(--text-color);
+}
+
+.experience_title {
+   font-size: 5rem;
+   font-family: var(--subtitle-font-name);
+   color: var(--secondary-color);
+}
+
+.experience_content h2 {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    font-weight: 100;
+    color: var(--text-color);
+    font-family: var(--font-name);
+}
+
+.experience_content p {
+    font-size: 1.1rem;
+    color: var(--text-color);
+    margin-top: 1rem;
+}
+
+.counter_wrapper {
+    margin-top: 2.5rem;
+}
+
+.counter_box span {
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+    border-radius: 10px 5px 10px 5px;
+}
+
+.counter_box h6 {
+    font-size: 1.1rem;
+    margin-top: .7rem;
+    color: var(--text-color);
+}
+
+.experience_img img {
+    width: 90%;
+}
+
+.gallery_title {
+    font-size: 4.3rem;
+    font-family: var(--subtitle-font-name);
+    color: var(--secondary-color);
+}
+
+.gallery_subtitle {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+    font-weight: 100;
+    color: var(--text-color);
+    font-family: var(--font-name);
+}
+
+.gallery_images {
+    transition: .3s;
+}
+
+.gallery_images:hover {
+    transform: scale(1.1)
+}
+
+.testimonial_title {
+    font-size: 4.3rem;
+    font-family: var(--subtitle-font-name);
+    color: var(--secondary-color);
+}
+
+.testimonial_subtitle {
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+    font-weight: 100;
+    color: var(--text-color);
+    font-family: var(--font-name);
+}

@@ -1,0 +1,155 @@
+.tour_content.img {
+    width: 100%;
+    background: grey;
+    border-radius: .3rem;
+    margin-bottom: 3rem;
+}
+
+.tour_info {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    padding: 2rem;
+    border: 1px solid rgb(229, 231, 235);
+    padding: 2rem;
+}
+
+.tour_info h2 {
+    font-family: var(--font-name);
+    color: var(--heading-color);
+    font-size: 2.5rem;
+}
+
+.tour_info span {
+    padding-bottom: .3rem;
+    display: flex;
+    align-items: center;
+    column-gap: .3rem;
+    font-size: 1rem;
+    color: var(--text-color)
+}
+
+.tour_info span i {
+    color: var(--primary-color);
+    font-size: 1.1rem;
+}
+
+.tour_extra-details {
+    display: flex;
+    align-items: center;
+    column-gap: 2.2rem;
+    margin-top: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.tour_info h5 {
+    margin-bottom: 1rem;
+    font-size: 1.9rem;
+    color: rgb(54, 52, 52);
+}
+
+.tour_info p {
+    line-height: 30px;
+    font-size: 1rem;
+    color: var(--text-color);
+}
+
+.tour_reviews {
+    border-radius: .5rem;
+    border: 1x solid rgb(229, 231, 235);
+    padding: 2rem;
+}
+
+.rating_group span {
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    color: var(--secondary-color);
+    cursor: pointer;
+}
+
+.tour_reviews h4 {
+    margin-bottom: 3rem;
+}
+
+.review_input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: .7rem;
+    border-radius: 2rem;
+    border: 1px solid var(--secondary-color);
+    font-family: monospace, sans-serif;
+}
+
+.review_input input {
+    width: 100%;
+    padding: .5rem 0;
+    border: none;
+}
+
+.review_input input:focus {
+    outline: none;
+}
+
+.review_input button {
+    font-family: monospace, sans-serif;
+    transition: .2s ease-out;
+}
+
+.review_input button:hover {
+    background: rgb(255, 81, 0);
+}
+
+
+.review_item {
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    margin-bottom: 2rem;
+    border: 1px solid whitesmoke;
+    border-radius: .5rem;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 4px 10px 6.7px;
+    padding: 1rem;
+}
+
+.review_item img {
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.review_item h5 {
+    font-weight: 700;
+}
+
+.review_item h6 {
+    font-weight: 500;
+    font-family: var(--font-name);
+    color: var(--text-color);
+}
+
+.review_item span {
+    color: var(--primary-color);
+    gap: 4px;
+}
+
+.user_reviews {
+    margin-top: 2.5rem;
+}
+
+.review_item h5 {
+    font-size: 1.3rem;
+    margin-bottom: 0;
+}
+
+.review_item p {
+    font-size: .9rem;
+    color: var(-- text-color);
+}
+
+.review_item h6 {
+    font-size: 1.1rem;
+}

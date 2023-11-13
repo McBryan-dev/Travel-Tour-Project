@@ -1,0 +1,15 @@
+.thank_you span i {
+    font-size: 4rem;
+    color: green;
+    font-weight: 700;
+}
+
+.thank_you h1 {
+    font-size: 3.6rem;
+    font-family: var(--subtitle-font-name);
+}
+
+.btn.primary_btn a {
+    text-decoration: none !important;
+    color: #fff !important;
+}
